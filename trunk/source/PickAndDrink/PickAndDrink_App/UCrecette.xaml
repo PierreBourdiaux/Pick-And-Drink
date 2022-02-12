@@ -1,0 +1,113 @@
+﻿<UserControl x:Class="PickAndDrink.UCrecette"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PickAndDrink"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="Button" BasedOn="{StaticResource buttonStyle}"/>
+        <Style TargetType="TextBlock" BasedOn="{StaticResource text}"/>
+    </UserControl.Resources>
+    
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding CocktailSélectionné.Image, Converter={StaticResource string2ImageConverter}}" Width="auto" Height="200" Grid.Row="0" Margin="20,5"/>
+                    <TextBlock Text="{Binding CocktailSélectionné.Nom}" Grid.Column="1" Style="{StaticResource MainTitle}" HorizontalAlignment="Left"/>
+                    <Button Grid.Column="2" Width="50" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Fav_Click">
+                        <Button.Template>
+                            <ControlTemplate>
+                                <Image Source="{Binding CocktailSélectionné.FavRef}"></Image>
+                            </ControlTemplate>
+                        </Button.Template>
+                        
+                    </Button>
+                </Grid>
+            </StackPanel>
+            <ItemsControl ItemsSource="{Binding CocktailSélectionné.LesRecettes}" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="0,0,0,20">
+                            <TextBlock Text="{Binding Nom}" Style="{StaticResource Title}"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="4*"/>
+                                    <ColumnDefinition Width="6*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <StackPanel Grid.Row="0" Grid.Column="0" Margin="10,0,0,0">
+                                    <TextBlock Text="Liste des ingrédient nécessaires :" Style="{StaticResource Title}"/>
+                                    <ItemsControl ItemsSource="{Binding LesIngredients}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <WrapPanel>
+                                                    <TextBlock Text="{Binding Nom}" Style="{StaticResource text}"/>
+                                                    <TextBlock Text=" : "/>
+                                                    <TextBlock Text="{Binding Qte}" Style="{StaticResource text}"/>
+                                                    <TextBlock Text=" "/>
+                                                    <TextBlock Text="{Binding Unite}" Style="{StaticResource text}"/>
+                                                </WrapPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                                <StackPanel   Grid.Column="1" Grid.Row="0">
+                                    <TextBlock Text="Description de la recette : " Style="{StaticResource Title}"/>
+                                    <TextBlock Text="{Binding Desc}" TextWrapping="Wrap"  Style="{StaticResource text}"/>
+                                    <WrapPanel >
+                                        <TextBlock Text=" degès d'alcool : " Style="{StaticResource text}"/>
+                                        <TextBlock Text="{Binding DegAlc}" Style="{StaticResource text}"/>
+                                        <TextBlock Text="°" Style="{StaticResource text}"/>
+                                    </WrapPanel>
+                                    <WrapPanel >
+                                        <TextBlock Text=" nombre de calories : " Style="{StaticResource text}"/>
+                                        <TextBlock Text="{Binding Calorie}" Style="{StaticResource text}" />
+                                        <TextBlock Text=" kcal " Style="{StaticResource text}"/>
+                                    </WrapPanel>
+                                    <WrapPanel >
+                                        <TextBlock Text=" Difficulté : "  Style="{StaticResource text}"/>
+                                        <TextBlock Text="{Binding Difficulté}" Style="{StaticResource text}" />
+                                    </WrapPanel>
+                                </StackPanel>
+                            </Grid>
+                            <TextBlock Text="Etapes pour réaliser cette recette : " Style="{StaticResource Title}"/>
+                            <ItemsControl ItemsSource="{Binding LesEtapes}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Margin="10,10,0,0">
+                                            <WrapPanel>
+                                                <TextBlock Text="Etape n° "  FontStyle="Italic" Style="{StaticResource text}"/>
+                                                <TextBlock Text="{Binding Key}"  FontSize="28" FontStyle="Italic" Style="{StaticResource text}"/>
+                                            </WrapPanel>
+                                            <TextBlock Text="{Binding Value}" TextWrapping="Wrap" Style="{StaticResource text}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Modifier la recette" Margin="40,5"  Click="Button_Click_Modif"  MinWidth="400"/>
+                <Button Content="Supprimer la recette" Grid.Column="4"  Click="Button_Click_Supp" MinWidth="400"/>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "XmlPM/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "runtime": {
+          "XmlPM.dll": {}
+        }
+      },
+      "PickandDrink_Modele/1.0.0": {
+        "runtime": {
+          "PickandDrink_Modele.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XmlPM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PickandDrink_Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

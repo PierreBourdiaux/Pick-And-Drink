@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PickAndDrink_App/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0",
+          "Stub": "1.0.0",
+          "XmlPM": "1.0.0"
+        },
+        "runtime": {
+          "PickAndDrink_App.dll": {}
+        }
+      },
+      "PickandDrink_Modele/1.0.0": {
+        "runtime": {
+          "PickandDrink_Modele.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "runtime": {
+          "Stub.dll": {}
+        }
+      },
+      "XmlPM/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "runtime": {
+          "XmlPM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PickAndDrink_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PickandDrink_Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlPM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

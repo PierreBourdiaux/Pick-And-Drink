@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PickandDrink_Modele/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PickandDrink_Modele.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PickandDrink_Modele.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stub.dll": {}
+        }
+      },
+      "XmlPM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/XmlPM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XmlPM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PickandDrink_Modele/1.0.0": {
+      "type": "project",
+      "path": "../PickandDrink_Modele/PickandDrink_Modele.csproj",
+      "msbuildProject": "../PickandDrink_Modele/PickandDrink_Modele.csproj"
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "path": "../Stub/Stub.csproj",
+      "msbuildProject": "../Stub/Stub.csproj"
+    },
+    "XmlPM/1.0.0": {
+      "type": "project",
+      "path": "../XmlPM/XmlPM.csproj",
+      "msbuildProject": "../XmlPM/XmlPM.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PickandDrink_Modele >= 1.0.0",
+      "Stub >= 1.0.0",
+      "XmlPM >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pierr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickAndDrink_App\\PickAndDrink_App.csproj",
+      "projectName": "PickAndDrink_App",
+      "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickAndDrink_App\\PickAndDrink_App.csproj",
+      "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickAndDrink_App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickandDrink_Modele\\PickandDrink_Modele.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickandDrink_Modele\\PickandDrink_Modele.csproj"
+            },
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\Stub\\Stub.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\Stub\\Stub.csproj"
+            },
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\XmlPM\\XmlPM.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\XmlPM\\XmlPM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestManager/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0",
+          "Stub": "1.0.0",
+          "TestCreaElement": "1.0.0",
+          "TestStub": "1.0.0"
+        },
+        "runtime": {
+          "TestManager.dll": {}
+        }
+      },
+      "PickandDrink_Modele/1.0.0": {
+        "runtime": {
+          "PickandDrink_Modele.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "runtime": {
+          "Stub.dll": {}
+        }
+      },
+      "TestCreaElement/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "runtime": {
+          "TestCreaElement.dll": {}
+        }
+      },
+      "TestStub/1.0.0": {
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0",
+          "Stub": "1.0.0"
+        },
+        "runtime": {
+          "TestStub.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PickandDrink_Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestCreaElement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestStub/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\bin\Debug\netcoreapp3.1\PickandDrink_Modele.deps.json
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\bin\Debug\netcoreapp3.1\PickandDrink_Modele.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\bin\Debug\netcoreapp3.1\PickandDrink_Modele.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.AssemblyInfoInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.AssemblyInfo.cs
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.csproj.CoreCompileInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\PickandDrink_Modele\obj\Debug\netcoreapp3.1\PickandDrink_Modele.csprojAssemblyReference.cache

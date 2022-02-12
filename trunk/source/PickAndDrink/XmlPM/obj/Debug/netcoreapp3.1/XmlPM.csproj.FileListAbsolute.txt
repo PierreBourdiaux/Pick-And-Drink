@@ -1,0 +1,12 @@
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\bin\Debug\netcoreapp3.1\XmlPM.deps.json
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\bin\Debug\netcoreapp3.1\XmlPM.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\bin\Debug\netcoreapp3.1\XmlPM.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\bin\Debug\netcoreapp3.1\PickandDrink_Modele.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\bin\Debug\netcoreapp3.1\PickandDrink_Modele.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.csprojAssemblyReference.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.AssemblyInfoInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.AssemblyInfo.cs
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.csproj.CoreCompileInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.csproj.CopyComplete
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\XmlPM\obj\Debug\netcoreapp3.1\XmlPM.pdb

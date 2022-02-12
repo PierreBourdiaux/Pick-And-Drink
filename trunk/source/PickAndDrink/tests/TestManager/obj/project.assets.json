@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PickandDrink_Modele/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PickandDrink_Modele.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PickandDrink_Modele.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stub.dll": {}
+        }
+      },
+      "TestCreaElement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestCreaElement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestCreaElement.dll": {}
+        }
+      },
+      "TestStub/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PickandDrink_Modele": "1.0.0",
+          "Stub": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestStub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestStub.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PickandDrink_Modele/1.0.0": {
+      "type": "project",
+      "path": "../../PickandDrink_Modele/PickandDrink_Modele.csproj",
+      "msbuildProject": "../../PickandDrink_Modele/PickandDrink_Modele.csproj"
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "path": "../../Stub/Stub.csproj",
+      "msbuildProject": "../../Stub/Stub.csproj"
+    },
+    "TestCreaElement/1.0.0": {
+      "type": "project",
+      "path": "../TestCreaElement/TestCreaElement.csproj",
+      "msbuildProject": "../TestCreaElement/TestCreaElement.csproj"
+    },
+    "TestStub/1.0.0": {
+      "type": "project",
+      "path": "../TestStub/TestStub.csproj",
+      "msbuildProject": "../TestStub/TestStub.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PickandDrink_Modele >= 1.0.0",
+      "Stub >= 1.0.0",
+      "TestCreaElement >= 1.0.0",
+      "TestStub >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pierr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestManager\\TestManager.csproj",
+      "projectName": "TestManager",
+      "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestManager\\TestManager.csproj",
+      "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickandDrink_Modele\\PickandDrink_Modele.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\PickandDrink_Modele\\PickandDrink_Modele.csproj"
+            },
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\Stub\\Stub.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\Stub\\Stub.csproj"
+            },
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestCreaElement\\TestCreaElement.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestCreaElement\\TestCreaElement.csproj"
+            },
+            "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestStub\\TestStub.csproj": {
+              "projectPath": "C:\\Users\\pierr\\OneDrive\\Documents\\iut\\cooa-ihm-projet\\Projet\\trunk\\source\\PickAndDrink\\tests\\TestStub\\TestStub.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

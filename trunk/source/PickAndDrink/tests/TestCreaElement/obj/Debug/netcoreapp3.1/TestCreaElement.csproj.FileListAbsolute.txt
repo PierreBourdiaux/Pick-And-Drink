@@ -1,0 +1,16 @@
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.exe
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.deps.json
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.runtimeconfig.json
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.runtimeconfig.dev.json
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\TestCreaElement.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\PickandDrink_Modele.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\bin\Debug\netcoreapp3.1\PickandDrink_Modele.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.csprojAssemblyReference.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.AssemblyInfoInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.AssemblyInfo.cs
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.csproj.CoreCompileInputs.cache
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.csproj.CopyComplete
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.dll
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.pdb
+C:\Users\pierr\OneDrive\Documents\iut\cooa-ihm-projet\Projet\trunk\source\PickAndDrink\tests\TestCreaElement\obj\Debug\netcoreapp3.1\TestCreaElement.genruntimeconfig.cache

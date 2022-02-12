@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\PickAndDrink_Bin\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\PickAndDrink_Bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PickandDrink_Code\**" />
+    <EmbeddedResource Remove="PickandDrink_Code\**" />
+    <None Remove="PickandDrink_Code\**" />
+    <Page Remove="PickandDrink_Code\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="img\Attention.png" />
+    <None Remove="img\fav.png" />
+    <None Remove="img\logo.png" />
+    <None Remove="img\loupe.png" />
+    <None Remove="img\notfav.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PickandDrink_Modele\PickandDrink_Modele.csproj" />
+    <ProjectReference Include="..\Stub\Stub.csproj" />
+    <ProjectReference Include="..\XmlPM\XmlPM.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\Attention.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\fav.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\loupe.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\notfav.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

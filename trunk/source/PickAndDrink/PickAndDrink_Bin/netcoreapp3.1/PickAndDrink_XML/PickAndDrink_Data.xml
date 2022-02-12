@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataPersist xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/XmlPM">
+  <allCocktail xmlns:d2p1="http://schemas.datacontract.org/2004/07/PickandDrink_Modele" z:Id="2" z:Size="8">
+    <d2p1:Cocktail z:Id="3">
+      <d2p1:FavRef z:Id="4">img/fav.png</d2p1:FavRef>
+      <d2p1:Image z:Id="5">Cocktail-blue-lagoon.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="6">
+        <d4p1:list z:Id="7" z:Size="1">
+          <d2p1:Recette z:Id="8">
+            <d2p1:Calorie>168</d2p1:Calorie>
+            <d2p1:DegAlc>37.5</d2p1:DegAlc>
+            <d2p1:Desc z:Id="9">Le Blue Lagoon est un cocktail à base de vodka, de curaçao bleu et de jus de citron. Il est aussi appelé le « lagon bleu » par sa traduction. Il fut créé par Andy MacElhone au Harry's New York Bar à Paris, en 1960.</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="10" z:Size="3">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="11">Pressez le jus d'un demi-citron, ajoutez dans le shaker avec les autres ingrédients et des glaçons.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="12">Frappez puis versez dans le verre en filtrant.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="13">Servir dans un verre de type "verre à martini"</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="14">
+              <d4p1:list z:Id="15" z:Size="3">
+                <d2p1:Ingredient z:Id="16">
+                  <d2p1:Nom z:Id="17">Vodka</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="18">
+                  <d2p1:Nom z:Id="19">Curaçao bleu</d2p1:Nom>
+                  <d2p1:Qte>3</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="20">
+                  <d2p1:Nom z:Id="21">Jus de citron</d2p1:Nom>
+                  <d2p1:Qte>2</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="22">Blue Lagoon</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Ref="22" i:nil="true" />
+      <d2p1:uid>14</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="23">
+      <d2p1:FavRef z:Ref="4" i:nil="true" />
+      <d2p1:Image z:Id="24">Default.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="25">
+        <d4p1:list z:Id="26" z:Size="1">
+          <d2p1:Recette z:Id="27">
+            <d2p1:Calorie>150</d2p1:Calorie>
+            <d2p1:DegAlc>33.5</d2p1:DegAlc>
+            <d2p1:Desc z:Id="28">création maison !!, parfait pour une soirée sur la plage, avec des amis ou la famille !</d2p1:Desc>
+            <d2p1:Difficulté>Moyen</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="29" z:Size="5">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="30">prennez un verre</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="31">versez la vodka dans le verre </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="32"> y ajouter le sucre</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>4</d7p1:Key>
+                <d7p1:Value z:Id="33"> ajoutez y le jus d'ananas</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>5</d7p1:Key>
+                <d7p1:Value z:Id="34">versez délicatement le sirop, bonne dégustation</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="35">
+              <d4p1:list z:Id="36" z:Size="4">
+                <d2p1:Ingredient z:Id="37">
+                  <d2p1:Nom z:Id="38">vodka</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="39">
+                  <d2p1:Nom z:Id="40">sirop de fraise</d2p1:Nom>
+                  <d2p1:Qte>1</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="41">
+                  <d2p1:Nom z:Id="42">sucre</d2p1:Nom>
+                  <d2p1:Qte>5</d2p1:Qte>
+                  <d2p1:Unite>G</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="43">
+                  <d2p1:Nom z:Id="44">jus ananas</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="45">le perso</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Id="46">Le perso</d2p1:Nom>
+      <d2p1:uid>8</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="47">
+      <d2p1:FavRef z:Id="48">img/notfav.png</d2p1:FavRef>
+      <d2p1:Image z:Ref="24" i:nil="true" />
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="49">
+        <d4p1:list z:Id="50" z:Size="1">
+          <d2p1:Recette z:Id="51">
+            <d2p1:Desc z:Id="52">Aucune description renseigné</d2p1:Desc>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="53" z:Size="4">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="54">Mettre quelques glaçons dans un verre a cocktail.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="55">Y ajouter le Malibu et le jus d'ananas.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="56">Puis verser doucement le sirop dans le verre.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>4</d7p1:Key>
+                <d7p1:Value z:Id="57">Compléter avec l'eau gazeuse.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="58">
+              <d4p1:list z:Id="59" z:Size="4">
+                <d2p1:Ingredient z:Id="60">
+                  <d2p1:Nom z:Id="61">Malibu</d2p1:Nom>
+                  <d2p1:Qte>6</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="62">
+                  <d2p1:Nom z:Id="63">Jus d'ananas</d2p1:Nom>
+                  <d2p1:Qte>12</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="64">
+                  <d2p1:Nom z:Id="65">Sirop de grenadine</d2p1:Nom>
+                  <d2p1:Qte>2</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="66">
+                  <d2p1:Nom z:Id="67">Eau pétillante</d2p1:Nom>
+                  <d2p1:Qte>10</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="68">Le soleil couchant</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Id="69">Le Soleil Couchant</d2p1:Nom>
+      <d2p1:uid>13</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="70">
+      <d2p1:FavRef z:Ref="4" i:nil="true" />
+      <d2p1:Image z:Id="71">Margarita.jpg</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="72">
+        <d4p1:list z:Id="73" z:Size="1">
+          <d2p1:Recette z:Id="74">
+            <d2p1:Calorie>140</d2p1:Calorie>
+            <d2p1:DegAlc>35</d2p1:DegAlc>
+            <d2p1:Desc z:Id="75">La Margarita est un cocktail à base de tequila, inventé par des Américains au Mexique.</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="76" z:Size="3">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="77">frotter le rebord d'un verre avec le citron vert</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="78">melanger tout les ingrédient avec des glaçons</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="79">versez dans un verre à cocktail</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="80">
+              <d4p1:list z:Id="81" z:Size="3">
+                <d2p1:Ingredient z:Id="82">
+                  <d2p1:Nom z:Id="83">Tequila</d2p1:Nom>
+                  <d2p1:Qte>60</d2p1:Qte>
+                  <d2p1:Unite>Ml</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="84">
+                  <d2p1:Nom z:Id="85">citron vert</d2p1:Nom>
+                  <d2p1:Qte>30</d2p1:Qte>
+                  <d2p1:Unite>Ml</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="86">
+                  <d2p1:Nom z:Id="87">Cointreau</d2p1:Nom>
+                  <d2p1:Qte>30</d2p1:Qte>
+                  <d2p1:Unite>Ml</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="88">Marguarita</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Id="89">Margarita</d2p1:Nom>
+      <d2p1:uid>10</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="90">
+      <d2p1:FavRef z:Ref="48" i:nil="true" />
+      <d2p1:Image z:Id="91">Mojito.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="92">
+        <d4p1:list z:Id="93" z:Size="2">
+          <d2p1:Recette z:Id="94">
+            <d2p1:Calorie>175</d2p1:Calorie>
+            <d2p1:DegAlc>37.5</d2p1:DegAlc>
+            <d2p1:Desc z:Id="95">le meilleur cocktail du monde</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="96" z:Size="11">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="97">Pillez les glaçons</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="98">Déposez la menthe juste au fond du verre. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="99">Coupez le citron en deux puis chaque demi citron en 6 morceaux. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>4</d7p1:Key>
+                <d7p1:Value z:Id="100">Ajoutez les 6 morceaux de citron dans chaque verre (1/2 citron). </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>5</d7p1:Key>
+                <d7p1:Value z:Id="101">Ajoutez le sirop de sucre de canne.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>6</d7p1:Key>
+                <d7p1:Value z:Id="102">Ecrasez le citron avec un pilon spécial cocktail.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>7</d7p1:Key>
+                <d7p1:Value z:Id="103">Ajoutez la glace pilée en laissant 2 cm de libre. Plus il y a de glace, moins elle fondra rapidement. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>8</d7p1:Key>
+                <d7p1:Value z:Id="104">Ajoutez le rhum. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>9</d7p1:Key>
+                <d7p1:Value z:Id="105">Complétez avec l'eau gazeuse. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>10</d7p1:Key>
+                <d7p1:Value z:Id="106">Mélangez le cocktail afin que les saveur se mêlent.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>11</d7p1:Key>
+                <d7p1:Value z:Id="107">Le mojito se sert avec deux pailles qui vont permettre de mélanger le cocktail au fur et à mesure de la dégustation. </d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="108">
+              <d4p1:list z:Id="109" z:Size="6">
+                <d2p1:Ingredient z:Id="110">
+                  <d2p1:Nom z:Id="111">menthe</d2p1:Nom>
+                  <d2p1:Qte>6</d2p1:Qte>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="112">
+                  <d2p1:Nom z:Id="113">rhum</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="114">
+                  <d2p1:Nom z:Id="115">eau gazeuse</d2p1:Nom>
+                  <d2p1:Qte>1</d2p1:Qte>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="116">
+                  <d2p1:Nom z:Id="117">Sirop de sucre de canne</d2p1:Nom>
+                  <d2p1:Qte>2</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="118">
+                  <d2p1:Nom z:Id="119">Citron vert</d2p1:Nom>
+                  <d2p1:Qte>0.5</d2p1:Qte>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="120">
+                  <d2p1:Nom z:Id="121">Glaçons</d2p1:Nom>
+                  <d2p1:Qte>10</d2p1:Qte>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="122">Mojito </d2p1:Nom>
+          </d2p1:Recette>
+          <d2p1:Recette z:Id="123">
+            <d2p1:Calorie>175</d2p1:Calorie>
+            <d2p1:Desc z:Id="124">le meilleur cocktail du monde mais sans alcool</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="125" z:Size="10">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Ref="97" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Ref="98" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Ref="99" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>4</d7p1:Key>
+                <d7p1:Value z:Ref="100" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>5</d7p1:Key>
+                <d7p1:Value z:Ref="101" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>6</d7p1:Key>
+                <d7p1:Value z:Ref="102" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>7</d7p1:Key>
+                <d7p1:Value z:Ref="103" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>8</d7p1:Key>
+                <d7p1:Value z:Ref="105" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>9</d7p1:Key>
+                <d7p1:Value z:Ref="106" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>10</d7p1:Key>
+                <d7p1:Value z:Ref="107" i:nil="true" />
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="126">
+              <d4p1:list z:Id="127" z:Size="5">
+                <d2p1:Ingredient z:Ref="110" i:nil="true" />
+                <d2p1:Ingredient z:Ref="114" i:nil="true" />
+                <d2p1:Ingredient z:Ref="116" i:nil="true" />
+                <d2p1:Ingredient z:Ref="118" i:nil="true" />
+                <d2p1:Ingredient z:Ref="120" i:nil="true" />
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="128">Virgin Mojito</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Id="129">Mojito</d2p1:Nom>
+      <d2p1:uid>7</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="130">
+      <d2p1:FavRef z:Ref="48" i:nil="true" />
+      <d2p1:Image z:Id="131">PinaColada.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="132">
+        <d4p1:list z:Id="133" z:Size="2">
+          <d2p1:Recette z:Id="134">
+            <d2p1:Calorie>174</d2p1:Calorie>
+            <d2p1:DegAlc>44</d2p1:DegAlc>
+            <d2p1:Desc z:Id="135">Inventé à Porto Rico, ce subtil mélange d'ananas, rhum et coco a fait le tour du monde et séduit toujours les convives. </d2p1:Desc>
+            <d2p1:Difficulté>Moyen</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="136" z:Size="3">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="137">Dans un blender (mixer), versez les ingrédients avec 5 ou 6 glaçons et mixez le tout. C'est prêt ! Versez dans le verre et dégustez. Peut aussi se réaliser au shaker si c'est juste pour une personne.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="138">Servir dans un verre de type "verre à vin".</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="139">Décorer avec un morceau d'ananas et une cerise confite.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="140">
+              <d4p1:list z:Id="141" z:Size="4">
+                <d2p1:Ingredient z:Id="142">
+                  <d2p1:Nom z:Id="143">Rhum blanc</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="144">
+                  <d2p1:Nom z:Id="145">Rhum ambré</d2p1:Nom>
+                  <d2p1:Qte>2</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="146">
+                  <d2p1:Nom z:Ref="63" i:nil="true" />
+                  <d2p1:Qte>12</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="147">
+                  <d2p1:Nom z:Id="148">Lait de coco</d2p1:Nom>
+                  <d2p1:Qte>4</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="149">Piña Colada</d2p1:Nom>
+          </d2p1:Recette>
+          <d2p1:Recette z:Id="150">
+            <d2p1:Calorie>174</d2p1:Calorie>
+            <d2p1:DegAlc>44</d2p1:DegAlc>
+            <d2p1:Desc z:Ref="135" i:nil="true" />
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="151" z:Size="2">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="152">Mixez les ingrédients avec beaucoup de glaçons. Servez.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="153">Servir dans un verre de type "verre à dégustation".</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="154">
+              <d4p1:list z:Id="155" z:Size="4">
+                <d2p1:Ingredient z:Id="156">
+                  <d2p1:Nom z:Ref="143" i:nil="true" />
+                  <d2p1:Qte>6</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="157">
+                  <d2p1:Nom z:Id="158">Crème fraîche liquide</d2p1:Nom>
+                  <d2p1:Qte>1</d2p1:Qte>
+                  <d2p1:Unite>CaSoupe</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="159">
+                  <d2p1:Nom z:Id="160">Sirop d'ananas</d2p1:Nom>
+                  <d2p1:Qte>3</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="161">
+                  <d2p1:Nom z:Id="162">Sirop de noix de coco</d2p1:Nom>
+                  <d2p1:Qte>3</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="163">Piña Colada Royal</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Ref="149" i:nil="true" />
+      <d2p1:uid>11</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="164">
+      <d2p1:FavRef z:Ref="4" i:nil="true" />
+      <d2p1:Image z:Id="165">Sexbeach.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="166">
+        <d4p1:list z:Id="167" z:Size="1">
+          <d2p1:Recette z:Id="168">
+            <d2p1:Calorie>160</d2p1:Calorie>
+            <d2p1:DegAlc>17.5</d2p1:DegAlc>
+            <d2p1:Desc z:Id="169">Une recette rafraîchissante et sucrée</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="170" z:Size="3">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="171">Mettez les ingrédients avec quelques glaçons dans un shaker, secouez et versez sur des glaçons dans un verre à long drink.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="172">secouez et versez sur des glaçons dans un verre à long drink.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="173">versez sur des glaçons dans un verre à long drink.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="174">
+              <d4p1:list z:Id="175" z:Size="4">
+                <d2p1:Ingredient z:Id="176">
+                  <d2p1:Nom z:Ref="38" i:nil="true" />
+                  <d2p1:Qte>3</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="177">
+                  <d2p1:Nom z:Id="178">liqueur de pêche</d2p1:Nom>
+                  <d2p1:Qte>3</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="179">
+                  <d2p1:Nom z:Ref="63" i:nil="true" />
+                  <d2p1:Qte>6</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="180">
+                  <d2p1:Nom z:Id="181">Jus de cramberry</d2p1:Nom>
+                  <d2p1:Qte>10</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="182">Sex on the beach</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Ref="182" i:nil="true" />
+      <d2p1:uid>9</d2p1:uid>
+    </d2p1:Cocktail>
+    <d2p1:Cocktail z:Id="183">
+      <d2p1:FavRef z:Ref="48" i:nil="true" />
+      <d2p1:Image z:Id="184">Spritz.png</d2p1:Image>
+      <d2p1:LesRecettes xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="185">
+        <d4p1:list z:Id="186" z:Size="1">
+          <d2p1:Recette z:Id="187">
+            <d2p1:Calorie>120</d2p1:Calorie>
+            <d2p1:DegAlc>12</d2p1:DegAlc>
+            <d2p1:Desc z:Id="188">Le spritz est un cocktail alcoolisé largement consommé en apéritif dans les grandes villes de la Vénétie et du Frioul-Vénétie Julienne, et également répandu dans toute l'Italie</d2p1:Desc>
+            <d2p1:Difficulté>Facile</d2p1:Difficulté>
+            <d2p1:LesEtapes xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="189" z:Size="4">
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>1</d7p1:Key>
+                <d7p1:Value z:Id="190">Prenez un verre mieux à pied, mettez en premier 3 ou 4 glaçons et une demi rondelle d’orange.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>2</d7p1:Key>
+                <d7p1:Value z:Id="191">Versez ensuite l'Apérol ou de Campari.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>3</d7p1:Key>
+                <d7p1:Value z:Id="192">Puis le Prosecco et enfin un trait d’eau gazeuse.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+              <d7p1:KeyValueOfintstring>
+                <d7p1:Key>4</d7p1:Key>
+                <d7p1:Value z:Id="193">Plongez une cuillère au fond du verre pour faire remonter délicatement l’Apérol ou le Campari. Un bon mélange sans perdre les bulles permettra à votre Spritz d’être mieux équilibré.</d7p1:Value>
+              </d7p1:KeyValueOfintstring>
+            </d2p1:LesEtapes>
+            <d2p1:LesIngredients z:Id="194">
+              <d4p1:list z:Id="195" z:Size="4">
+                <d2p1:Ingredient z:Id="196">
+                  <d2p1:Nom z:Id="197">Apérol ou Campari</d2p1:Nom>
+                  <d2p1:Qte>10</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="198">
+                  <d2p1:Nom z:Id="199">Prosecco</d2p1:Nom>
+                  <d2p1:Qte>20</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="200">
+                  <d2p1:Nom z:Ref="67" i:nil="true" />
+                  <d2p1:Qte>5</d2p1:Qte>
+                  <d2p1:Unite>Cl</d2p1:Unite>
+                </d2p1:Ingredient>
+                <d2p1:Ingredient z:Id="201">
+                  <d2p1:Nom z:Id="202">Rondelle d'orange</d2p1:Nom>
+                  <d2p1:Qte>1</d2p1:Qte>
+                </d2p1:Ingredient>
+              </d4p1:list>
+            </d2p1:LesIngredients>
+            <d2p1:Nom z:Id="203">Spritz</d2p1:Nom>
+          </d2p1:Recette>
+        </d4p1:list>
+      </d2p1:LesRecettes>
+      <d2p1:Nom z:Ref="203" i:nil="true" />
+      <d2p1:uid>12</d2p1:uid>
+    </d2p1:Cocktail>
+  </allCocktail>
+  <creaCocktail xmlns:d2p1="http://schemas.datacontract.org/2004/07/PickandDrink_Modele" z:Id="204" z:Size="2">
+    <d2p1:Cocktail z:Ref="23" i:nil="true" />
+    <d2p1:Cocktail z:Ref="47" i:nil="true" />
+  </creaCocktail>
+  <favCocktail xmlns:d2p1="http://schemas.datacontract.org/2004/07/PickandDrink_Modele" z:Id="205" z:Size="4">
+    <d2p1:Cocktail z:Ref="3" i:nil="true" />
+    <d2p1:Cocktail z:Ref="23" i:nil="true" />
+    <d2p1:Cocktail z:Ref="70" i:nil="true" />
+    <d2p1:Cocktail z:Ref="164" i:nil="true" />
+  </favCocktail>
+</DataPersist>
